@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../Downloads/se_project_library_1733606777/se_project_library/.vscode"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "se_project_coffeeshop"
+  }
+}
