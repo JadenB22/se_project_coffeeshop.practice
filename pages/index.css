@@ -20,6 +20,8 @@
   flex-direction: column;
   box-sizing: border-box;
   margin: auto;
+  background-size: cover;
+  position: relative;
 }
 
 .header__image {
