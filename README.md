@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+The page layout is nice but I for somereason do not like the agreement check box and would go for something more nuetral in color. The second part of the page with the videos bothered me becayse it didn't line up with the top section. The circle with pulse is my favorite part.
