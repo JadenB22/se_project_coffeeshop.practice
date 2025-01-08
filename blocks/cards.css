@@ -12,9 +12,19 @@
 
 .card__title {
   margin: 0 0 32px;
+  max-width: 780px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 44px;
+
+  line-height: 52px;
 }
 
-.card__list_item {
+.card__list-item {
   display: flex;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
 
@@ -28,7 +38,7 @@
   gap: 10px;
 }
 
-.card__list_divider {
+.card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid black;
 }

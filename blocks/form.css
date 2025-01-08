@@ -6,7 +6,6 @@
   padding: 0;
   border: none;
   width: 100%;
-  padding: 15px 20px;
 }
 
 .form__label {
@@ -32,6 +31,7 @@
   border: 1px solid #838383;
   border-radius: 4px;
   color: #000;
+  min-height: 60px;
 }
 
 .form__button {
@@ -47,9 +47,6 @@
 
   font-weight: normal;
 
-  font-size: 20px;
-
-  line-height: 30px;
   background-color: #1878dc;
   color: #fff;
 }
@@ -72,14 +69,16 @@
   font-size: 16px;
 
   line-height: 20px;
+  background-color: #1878dc;
+  background-image: url(../image/check.svg);
 }
 
 .form__label_type_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
-  background-color: #1878dc;
-  background-image: url(../images/check.svg);
+
+  flex-direction: row-reverse;
 }
 
 ::placeholder {

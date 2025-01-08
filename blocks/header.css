@@ -7,6 +7,14 @@
   margin: auto;
   background-size: cover;
   position: relative;
+  z-index: 1;
+  background-position: center;
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
 .header__image {
@@ -15,11 +23,13 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
-  margin-top: 138px;
-  font-family: "Inter";
+  margin-bottom: 28px;
+  margin-top: 183px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -39,12 +49,13 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
+  margin: 0;
 }
 
 .header__hours {
@@ -61,4 +72,13 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+  line-height: 30px;
 }
