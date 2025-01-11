@@ -71,14 +71,12 @@
 }
 
 .header__paragraph {
+  color: #000000;
   margin: 0;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
 
   font-style: normal;
 
-  font-weight: normal;
+  font-weight: 500;
 
   font-size: 20px;
-
-  line-height: 30px;
 }
