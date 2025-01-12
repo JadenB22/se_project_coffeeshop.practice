@@ -71,12 +71,10 @@
 }
 
 .header__paragraph {
-  color: #000000;
+  color: #838383;
   margin: 0;
 
   font-style: normal;
 
   font-weight: 500;
-
-  font-size: 20px;
 }

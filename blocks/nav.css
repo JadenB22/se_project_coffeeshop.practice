@@ -21,18 +21,23 @@
   width: 105px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   list-style-type: none;
   gap: 20px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav__link {
   color: #000000;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  padding-left: 0;
-  margin: 0;
+
+  text-decoration: none;
 }
 
 .nav__link:hover {
